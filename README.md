@@ -8,11 +8,27 @@
 Makine öğrenimi kullanarak 3DimViewer hacimsel tıbbi görüntülerin 3B görselleştirmesini
 kolaylaştırmak.
 
-#Yöntemlerimiz
+#Yöntemlerimiz:
 Klinik ortamlardaki sınırlı bilgi işlem kaynakları nedeniyle radyoloji görüntüleri üzerinde makine öğrenimi (ML) işlem hatlarının gerçek zamanlı yürütülmesi zordur, ancak bunları araştırma kümelerinde çalıştırmak verimli veri aktarım yetenekleri gerektirir. Hastanelerin PACS'lerinden verimli bir şekilde görüntüler alarak ve görüntülerden meta verileri çıkararak araştırma kümelerinde ML ve işleme boru hatlarını sağlayan açık kaynaklı bir Dijital Görüntüleme ve Tıpta İletişim (DICOM) çerçevesi olan Niffler'i elde edebeliriz.
 
-#Kullandığımız araçlar
+#Kullandığımız araçlar:
 Hastahane uygulaması üzerinden hastanın çekilen MR ve röntgenlerini hasta veritabanında tutularak XML ve Python ile yazılan  DİCOM viewer kulanılır.
+
+2D processing
+
+
+Load Image (*.dcm)
+Save Image
+Gri skalaya dönüştür
+Eski haline getirmek
+Eşikleme
+Morfoloji
+Kenar Algılama
+körüntüyü Tanıma
+Hatayı minimize etme
+
+
+
 
 
 
