@@ -14,8 +14,7 @@ Klinik ortamlardaki sınırlı bilgi işlem kaynakları nedeniyle radyoloji gör
 #Kullandığımız araçlar:
 Hastahane uygulaması üzerinden hastanın çekilen MR ve röntgenlerini hasta veritabanında tutularak XML ve Python ile yazılan  DİCOM viewer kulanılır.
 
-#2D processing:
-
+#2D:
 
 Load Image (*.dcm),
 Save Image,
@@ -36,3 +35,15 @@ Hatayı minimize etme,
 
 
 
+
+
+#3D:
+
+DICOM yığınını yükle,
+Dilim kaydet (eksenel, sagital, koronal),
+Renk haritası dönüşümü,
+Kaydırıcı kaydırma,
+Fareyle gezinme/tıklama,
+DICOM bilgilerini göster,
+Dilim indeksi koordinatını göster,
+3D hacim rekonstrüksiyonu,
